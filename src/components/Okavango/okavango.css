@@ -1,0 +1,20 @@
+.okavango{
+    width: 100%;
+    background-image: url("../../images/okavango.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 390px 0px 183px 73px;
+}
+
+@media(max-width: 991px){
+    .okavango{
+        padding: 0;
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .okavango h2, .okavango p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,1 @@
+export const LANGUAGE = "app-geely-language"

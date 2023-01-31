@@ -1,0 +1,231 @@
+.testdrive{
+     width: 100%;
+ }
+
+ .testdrive h1{
+     text-align: center;
+     font-size: 48px;
+     color: #0069BC;
+     font-weight: 400;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 111px;
+     margin-bottom: 30px;
+ }
+
+.testdrive{
+    margin-bottom: 200px;
+    background-color: #ffffff;
+}
+
+.testdrive input{
+    color: #757575;
+    border:none;
+    border-bottom:1px solid #0069bc;
+}
+
+.testdrive select{
+    border:none;
+    border-bottom:1px solid #0069bc;
+    width: 200px;
+    padding: 5px 30px;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+    outline: none;
+}
+
+.testdrive .optin_text{
+    text-align: left;
+}
+
+.testdrive input{
+    border:none;
+  border-bottom:1px solid #0069bc;
+    width: 200px;
+    padding: 7px 30px;
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    outline: none;
+}
+
+.testdrive input::placeholder {
+    color: gray;
+}
+
+
+
+.otpravit {
+    --color: #0069bc;
+    font-family: inherit;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px!important;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 19px!important;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-weight: 500;
+    text-transform: uppercase!important;
+    color: var(--color);
+    border-radius: 5px !important;
+    padding: 10px 58px;
+   }
+   
+   .otpravit:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+   }
+   
+   .otpravit:hover {
+    color: #fff;
+   }
+   
+   .otpravit:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .otpravit:hover:before {
+    top: -100px;
+    left: -30px;
+   }
+   
+   .otpravit:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
+
+   .for_flag{
+       width: 25px;
+       height: 25px;
+   }
+
+   .for_flag img{
+       width: 100%;
+       height: 100%;
+       cursor: pointer;
+   }
+
+.boxes {
+    width: 400px;
+}
+
+@media(max-width: 440px){
+    .boxes{
+        padding-left: 12px;
+    }
+}
+
+.boxes p{
+    margin-left: 5px;
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.twins{
+    display: none;
+}
+
+.label_text{
+    font-size: "16px";
+    text-decoration: "underline"!important;
+}
+
+
+
+@media(max-width: 776px){
+   
+}
+
+@media(max-width:992px){
+    .testdrive h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:454px){
+    #testDrive{
+        font-size: 18px;
+    }
+
+    .testdrive select{
+        width: 165px;
+        padding: 3px 30px;
+        font-size: 16px;
+    }
+
+    .testdrive input{
+        width: 165px;
+        padding: 3px 30px;
+        font-size: 16px;
+    }    
+}
+
+.active-modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+
+.error-novalue .form__checkbox::after,
+.error-notvalid .form__checkbox::after {
+  border-color: #CB2424;
+}
+.for_checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#vehicle1{
+    width: 45px;
+    height: 45px;
+}
+
+
+@media(max-width: 991px){
+    .for_btn_mobile{
+        padding-left: 118px!important;
+    }
+}
+@media(max-width: 767px){
+    .for_btn_mobile{
+        padding-left: 155px!important;
+    }
+}
+@media(max-width: 509px){
+    .for_btn_mobile{
+        padding-left: 130px!important;
+    }
+}
+@media(max-width: 458px){
+    .for_btn_mobile{
+        padding-left: 110px!important;
+    }
+}
+@media(max-width: 432px){
+    .for_btn_mobile{
+        padding-left: 100px!important;
+    }
+}
+@media(max-width: 398px){
+    .for_btn_mobile{
+        padding-left: 80px!important;
+    }
+}

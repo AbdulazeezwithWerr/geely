@@ -1,0 +1,24 @@
+.emgrand{
+    width: 100%;
+    background-image: url("../../images/emg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 390px 0px 183px 73px;
+}
+
+
+@media(max-width: 991px){
+    .emgrand{
+        padding: 0;
+        padding-top: 200px;
+    }
+
+    .emgrand h2, .emgrand p{
+        text-align: center;
+    }
+
+    .right_texnika{
+        margin-top: 30px;
+    }
+}

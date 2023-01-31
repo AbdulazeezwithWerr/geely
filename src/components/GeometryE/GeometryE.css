@@ -1,0 +1,19 @@
+.geomteryE{
+    width: 100%;
+    background-image: url("../../images/qwerty.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 390px 0px 183px 73px;
+}
+
+@media(max-width: 991px){
+    .geomteryE{
+        padding: 0;
+        padding-top: 200px;
+    }
+
+    .geomteryE h2, .geomteryE p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+.geomteryC{
+    width: 100%;
+    background-image: url("../../images/geomter.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 390px 0px 183px 73px;
+}
+
+@media(max-width: 991px){
+    .geomteryC{
+        padding: 0;
+        padding-top: 200px;
+    }
+
+    .geomteryC h2, .geomteryC p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+.tugella{
+    width: 100%;
+    background-image: url("../../images/group-633063.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 390px 0px 183px 73px;
+}
+
+@media(max-width: 991px){
+    .tugella {
+        padding: 0;
+        padding-top: 200px;
+    }
+
+    .tugella h2, .tugella p{
+        text-align: center;
+    }
+}
